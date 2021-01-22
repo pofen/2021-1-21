@@ -7,7 +7,7 @@ public string replaceSpace(StringBuffer str) (
 	while (p1 >= 0 && p2 > p1){
 		char c = str.charAt(p1--);
 		if(c == ' ') {
-			str.setCharAt(P2--,'0');
+			str.setCharAt(P2--,'0');     //test2
 			str.setCharAt(P2--,'2');
 			str.setCharAt(P2--,'%');
 		}else{
